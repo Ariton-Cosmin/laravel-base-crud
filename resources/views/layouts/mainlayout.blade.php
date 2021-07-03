@@ -9,14 +9,10 @@
 </head>
 <body>
 
-  <title>Comics</title>
-  
-  @include('partials.header')
-  <main>
-    @yield('content')
-  </main>
-   
+  @include("partials.header")
+  @yield('content')
   @include('partials.footer')
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>
